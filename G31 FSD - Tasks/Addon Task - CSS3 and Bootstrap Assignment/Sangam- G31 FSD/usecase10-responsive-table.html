@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #6a90c9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+
+        <!--Heading-->
+        <div class="text-container mb-4">
+            <h1>Employee Management</h1>
+            <p class="text-muted">
+                Responsive Employee Table using Bootstrap
+            </p>
+        </div>
+
+        <!--Resposive Table-->
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered align-middle shadow">
+
+                <!--Table Header-->
+                <thead class="table-dark">
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <!--Table Body-->
+                <tbody>
+                    <tr>
+                        <td>EMP101</td>
+                        <td>Sangam Gupta</td>
+                        <td>AI/ML</td>
+                        <td>sangam@gmail.com</td>
+                        <td>
+                            <span class="badge bg-success">
+                                Active
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EMP102</td>
+                        <td>Lucky Gupta</td>
+                        <td>EEE</td>
+                        <td>lucky@gmail.com</td>
+                        <td>
+                            <span class="badge bg-warning text-dark">
+                                Pending
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EMP103</td>
+                        <td>sanket Gupta</td>
+                        <td>IT</td>
+                        <td>sanket@gmail.com</td>
+                        <td>
+                            <span class="badge bg-danger">
+                                Active
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>EMP104</td>
+                        <td>Khushi Gupta</td>
+                        <td>AI/ML</td>
+                        <td>khushi@gmail.com</td>
+                        <td>
+                            <span class="badge bg-success">
+                                Active
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
