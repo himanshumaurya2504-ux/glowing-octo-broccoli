@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA - Product Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            background: #020617;
+        }
+
+        .glow {
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.25);
+        }
+    </style>
+</head>
+
+<body class="text-white">
+
+<!-- Navbar -->
+<nav class="flex items-center justify-between border-b border-white/10
+            px-6 py-4 md:px-12">
+
+    <h1 class="text-2xl font-bold text-violet-400">GUIDING WINDS</h1>
+
+    <div class="hidden gap-6 md:flex">
+        <a href="#home" class="hover:text-violet-400">Home</a>
+        <a href="#features" class="hover:text-violet-400">Products</a>
+        <a href="#pricing" class="hover:text-violet-400">Pricing</a>
+        <a href="#contact" class="hover:text-violet-400">Contact</a>
+    </div>
+
+    <button class="rounded-lg bg-violet-600 px-4 py-2
+                   hover:bg-violet-500">
+        Sign Up
+    </button>
+</nav>
+
+
+<!-- Hero -->
+<section id="home"
+         class="mx-auto grid max-w-6xl items-center gap-10
+                px-6 py-20 md:grid-cols-2">
+
+    <div>
+        <p class="mb-3 text-violet-400">THE FUTURE IS HERE</p>
+
+        <h2 class="text-4xl font-bold md:text-6xl">
+            Work smarter.
+            <span class="text-cyan-400">Create better.</span>
+        </h2>
+
+        <p class="mt-5 text-slate-400">
+            GUIDING WINDS is a modern productivity platform that helps you
+            organize your work and achieve more.
+        </p>
+
+        <button class="mt-6 rounded-lg bg-violet-600 px-6 py-3
+                       font-semibold shadow-lg shadow-violet-500/30
+                       transition hover:-translate-y-1 hover:bg-violet-500">
+            Get Started
+        </button>
+    </div>
+
+    <div class="glow rounded-2xl border border-violet-500/30
+                bg-slate-900 p-6">
+
+        <div class="mb-4 h-3 w-24 rounded bg-violet-500"></div>
+
+        <div class="space-y-4">
+            <div class="h-20 rounded-lg bg-violet-500/10"></div>
+            <div class="grid grid-cols-3 gap-3">
+                <div class="h-24 rounded-lg bg-cyan-500/10"></div>
+                <div class="h-24 rounded-lg bg-violet-500/10"></div>
+                <div class="h-24 rounded-lg bg-pink-500/10"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Features -->
+<section id="features" class="px-6 py-16">
+
+    <h2 class="text-center text-3xl font-bold">
+        Powerful Features
+    </h2>
+
+    <div class="mx-auto mt-10 grid max-w-6xl gap-6
+                md:grid-cols-3">
+
+        <div class="rounded-xl border border-white/10 bg-slate-900
+                    p-6 transition hover:-translate-y-2 hover:border-violet-500">
+            <div class="text-3xl">⚡</div>
+            <h3 class="mt-4 text-xl font-semibold">Fast</h3>
+            <p class="mt-2 text-slate-400">
+                Lightning-fast performance for your everyday work.
+            </p>
+        </div>
+
+        <div class="rounded-xl border border-white/10 bg-slate-900
+                    p-6 transition hover:-translate-y-2 hover:border-cyan-500">
+            <div class="text-3xl">🔒</div>
+            <h3 class="mt-4 text-xl font-semibold">Secure</h3>
+            <p class="mt-2 text-slate-400">
+                Your data stays protected with modern security.
+            </p>
+        </div>
+
+        <div class="rounded-xl border border-white/10 bg-slate-900
+                    p-6 transition hover:-translate-y-2 hover:border-pink-500">
+            <div class="text-3xl">☁️</div>
+            <h3 class="mt-4 text-xl font-semibold">Cloud Sync</h3>
+            <p class="mt-2 text-slate-400">
+                Access your work anytime and from anywhere.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Pricing -->
+<section id="pricing" class="bg-slate-950 px-6 py-16">
+
+    <h2 class="text-center text-3xl font-bold">
+        Simple Pricing
+    </h2>
+
+    <div class="mx-auto mt-10 grid max-w-6xl gap-6
+                md:grid-cols-3">
+
+        <div class="rounded-xl border border-white/10 p-6 text-center">
+            <h3 class="text-xl font-bold">Basic</h3>
+            <p class="my-4 text-3xl font-bold">₹0</p>
+            <p class="text-slate-400">For beginners</p>
+            <button class="mt-6 rounded-lg border border-violet-500
+                           px-5 py-2 hover:bg-violet-600">
+                Choose
+            </button>
+        </div>
+
+        <div class="glow rounded-xl border border-violet-500
+                    bg-violet-950/20 p-6 text-center">
+            <h3 class="text-xl font-bold">Pro</h3>
+            <p class="my-4 text-3xl font-bold">₹499</p>
+            <p class="text-slate-400">For professionals</p>
+            <button class="mt-6 rounded-lg bg-violet-600
+                           px-5 py-2 hover:bg-violet-500">
+                Choose
+            </button>
+        </div>
+
+        <div class="rounded-xl border border-white/10 p-6 text-center">
+            <h3 class="text-xl font-bold">Business</h3>
+            <p class="my-4 text-3xl font-bold">₹999</p>
+            <p class="text-slate-400">For teams</p>
+            <button class="mt-6 rounded-lg border border-cyan-500
+                           px-5 py-2 hover:bg-cyan-600">
+                Choose
+            </button>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="mx-auto max-w-2xl px-6 py-16">
+
+    <h2 class="text-center text-3xl font-bold">
+        Contact Us
+    </h2>
+
+    <form class="mt-8 space-y-4">
+
+        <input type="text" placeholder="Your Name"
+               class="w-full rounded-lg border border-white/10
+                      bg-slate-900 p-3 outline-none
+                      focus:border-violet-500">
+
+        <input type="email" placeholder="Your Email"
+               class="w-full rounded-lg border border-white/10
+                      bg-slate-900 p-3 outline-none
+                      focus:border-violet-500">
+
+        <textarea rows="4" placeholder="Your Message"
+                  class="w-full rounded-lg border border-white/10
+                         bg-slate-900 p-3 outline-none
+                         focus:border-violet-500"></textarea>
+
+        <button class="w-full rounded-lg bg-violet-600 py-3
+                       font-semibold hover:bg-violet-500">
+            Send Message
+        </button>
+
+    </form>
+</section>
+
+
+<!-- Footer -->
+<footer class="border-t border-white/10 px-6 py-8 text-center">
+
+    <h2 class="font-bold text-violet-400">GUIDING WINDS</h2>
+
+    <p class="mt-2 text-sm text-slate-500">
+        © 2026 GUIDING WINDS. All rights reserved.
+    </p>
+
+    <div class="mt-3 space-x-4 text-sm">
+        <a href="#" class="hover:text-violet-400">Instagram</a>
+        <a href="#" class="hover:text-violet-400">GitHub</a>
+        <a href="#" class="hover:text-violet-400">Privacy Policy</a>
+    </div>
+
+</footer>
+
+</body>
+</html>
